@@ -1,0 +1,16 @@
+<?php
+
+$mahasiswa = [
+    [
+        "nama" => "Fikendra nadeak",
+        "nrp" => "183040070",
+        "email" => "nadeak.183040070@mail.unpas.ac.id"
+    ],
+    [
+        "nama" => "Ferdi Yonatan Natu",
+        "nrp" => "193040151",
+        "email" => "193040151@mail.unpas.ac.id"
+    ]
+];
+$data = json_encode($mahasiswa);
+echo $data;
